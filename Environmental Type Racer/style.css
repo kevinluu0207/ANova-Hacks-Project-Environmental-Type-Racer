@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "productsans-regular";
+  src: url("/fonts/ProductSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "productsans-light";
+  src: url("/fonts/ProductSans-Light.ttf");
+}
+
+body {  
+  background-image:url("https://img.freepik.com/free-vector/abstract-blurred-gradient-mesh-background_1159-3175.jpg?size=1920&ext=jpg");
+  height:auto;
+  font-family: 'productsans-regular';
+  text-shadow: 0.1em 0.1em 0.1em black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1 {
+  color: white;
+  font-family: 'productsans-regular';
+  text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+#pg {
+  color: white;
+  text-align:center;
+  font-family: 'productsans-light';
+  font-size: 1.1em;
+}
+
+#score {
+  font-size: 1.2em;
+  font-family: 'productsans-regular';
+  color: white;
+}
+
+#timer {
+  font-size: 1.2em;
+  font-family: 'productsans-regular';
+  color: white;
+}
+
+#quiz {
+  font-size: 1.2em;
+  font-family: 'productsans-regular';
+  text-align: center;
+  color: white;
+}
+
+#text {
+  font-size: 1.2em;
+  color: white;
+  font-family: 'productsans-regular';
+  text-align: center;
+}
+
+#cpm {
+  font-size: 1.2em;
+  font-family: 'productsans-regular';
+  color: white;
+}
+
+#polarbear {
+  position: absolute;
+  height: 5em;
+  width: 5em;
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(0px 5px 5px #222);
+}
+
+#input1 {
+  border-radius: 1em;
+  height: 2.5em;
+}
+
+#restart {
+  padding: 0.8em;
+  border-radius: 1em;
+  font-family: productsans-regular;
+  font-size:0.8em;
+  box-shadow: 0em 0.3em 0.3em 0em black;
+  background-color: #5c6568;
+  border:none;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+ul {
+  text-align: center; 
+  width:100%;
+  list-style: none;
+}
+
+li {
+  padding: 2tjpx;
+  display: inline;
+  
+}
+
+#sun {
+  height: 8em;
+  width: 8em;
+  position: absolute;
+  top:0em;
+  right:0em;
+  z-index:-1;
+}
